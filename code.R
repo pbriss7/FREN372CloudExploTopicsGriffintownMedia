@@ -76,6 +76,7 @@ doc.mots.rep.dt <- data.table(topic=1:dim(doc.topic.distr.14)[2],
                               most_rep_doc = most.rep.docs$lemma,
                               topic_top_words = top.words.list)
 
+View(doc.mots.rep.dt)
 
 #### Visualisation des thèmes des trois modèles avec LDAVis ----
 
